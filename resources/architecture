@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T18:48:46.222Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="xtu4iBEJbTWbzrVLGjNb" version="21.3.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-20T20:25:46.813Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="U4jSpuquc_cRwO1qum__" version="21.3.2" type="device">
   <diagram name="Página-1" id="JFZ3m22iPYXYj-led7jh">
-    <mxGraphModel dx="1194" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="FmrLWGUQnYR3JZGjnajw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FmrLWGUQnYR3JZGjnajw-1" source="FmrLWGUQnYR3JZGjnajw-8" target="FmrLWGUQnYR3JZGjnajw-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FmrLWGUQnYR3JZGjnajw-8" value="Tenant 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;application" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
+        <mxCell id="FmrLWGUQnYR3JZGjnajw-8" value="Tenant 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Requester app" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
           <mxGeometry x="201" y="42.5" width="42.66" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FmrLWGUQnYR3JZGjnajw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FmrLWGUQnYR3JZGjnajw-1" source="FmrLWGUQnYR3JZGjnajw-9" target="FmrLWGUQnYR3JZGjnajw-18">
@@ -42,9 +42,6 @@
             <mxPoint x="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FmrLWGUQnYR3JZGjnajw-9" value="Tenant n&lt;br&gt;application" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
-          <mxGeometry x="201" y="162.5" width="42.66" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="FmrLWGUQnYR3JZGjnajw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FmrLWGUQnYR3JZGjnajw-1" source="FmrLWGUQnYR3JZGjnajw-18" target="FmrLWGUQnYR3JZGjnajw-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -54,7 +51,7 @@
         <mxCell id="FmrLWGUQnYR3JZGjnajw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FmrLWGUQnYR3JZGjnajw-1" source="FmrLWGUQnYR3JZGjnajw-21" target="FmrLWGUQnYR3JZGjnajw-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FmrLWGUQnYR3JZGjnajw-21" value="Consumer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
+        <mxCell id="FmrLWGUQnYR3JZGjnajw-21" value="Replier" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
           <mxGeometry x="421" y="102.5" width="42.66" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FmrLWGUQnYR3JZGjnajw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="FmrLWGUQnYR3JZGjnajw-1" source="FmrLWGUQnYR3JZGjnajw-24" target="FmrLWGUQnYR3JZGjnajw-8">
@@ -73,14 +70,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FmrLWGUQnYR3JZGjnajw-24" value="Reply&lt;br&gt;Elasticcache" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticache;fillColor=#2E73B8;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
+        <mxCell id="FmrLWGUQnYR3JZGjnajw-24" value="Reply&lt;br&gt;ElasticCache&lt;br&gt;(Redis Pub/Sub)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticache;fillColor=#2E73B8;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
           <mxGeometry x="521" y="97.5" width="41.67" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FmrLWGUQnYR3JZGjnajw-31" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
           <mxGeometry x="79.5" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FmrLWGUQnYR3JZGjnajw-32" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
-          <mxGeometry x="183.65999999999997" y="120" width="60" height="30" as="geometry" />
+          <mxGeometry x="192.32999999999996" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FmrLWGUQnYR3JZGjnajw-9" value="Tenant n&lt;br&gt;Requester app" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;labelBackgroundColor=default;spacingTop=5;" vertex="1" parent="FmrLWGUQnYR3JZGjnajw-1">
+          <mxGeometry x="201" y="162.5" width="42.66" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FmrLWGUQnYR3JZGjnajw-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FmrLWGUQnYR3JZGjnajw-29" target="FmrLWGUQnYR3JZGjnajw-2">
           <mxGeometry relative="1" as="geometry" />
