@@ -18,7 +18,7 @@ resource "aws_api_gateway_rest_api" "integration_gateway" {
             httpMethod           = "POST"
             payloadFormatVersion = "1.0"
             type                 = "AWS"
-            uri                  = "arn:aws:apigateway:sa-east-1:sqs:path/$path.tenant_uuid-requests-queue"
+            uri                  = "arn:aws:apigateway:sa-east-1:sqs:path/$path.tenant_uuid-integration-queue"
             credentials          = aws_iam_role.gateway_role.arn
 
             responses = {

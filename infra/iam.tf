@@ -25,7 +25,7 @@ resource "aws_iam_role" "gateway_role" {
           Action   = "sqs:*"
           Effect   = "Allow"
           Sid      = ""
-          Resource = "arn:aws:sqs:sa-east-1:*:*-requests-queue"
+          Resource = "arn:aws:sqs:sa-east-1:*:*-integration-queue"
         }
       ]
     })
