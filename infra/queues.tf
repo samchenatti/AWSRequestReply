@@ -2,10 +2,10 @@ resource "aws_sqs_queue" "integration" {
   for_each = toset(var.tenants)
 
   name                      = "${each.key}-integration-queue"
-  delay_seconds             = 90
+  delay_seconds             = 0
   max_message_size          = 2048
   message_retention_seconds = 86400
-  receive_wait_time_seconds = 10
+  receive_wait_time_seconds = 0
 }
 
 resource "aws_sqs_queue" "requests" {
@@ -15,8 +15,8 @@ resource "aws_sqs_queue" "requests" {
   content_based_deduplication = true
 
   name                      = "requests-queue.fifo"
-  delay_seconds             = 90
+  delay_seconds             = 0
   max_message_size          = 2048
   message_retention_seconds = 86400
-  receive_wait_time_seconds = 10
+  receive_wait_time_seconds = 0
 }
